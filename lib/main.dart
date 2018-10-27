@@ -76,7 +76,7 @@ class TodoListState extends State<TodoList>{
                 autofocus: true,
                 onSubmitted: (val){
                   addTask(val);
-                  Navigator.pop(context)
+                  Navigator.pop(context);
                 },
                 decoration: InputDecoration(
                   hintText: "add task",
